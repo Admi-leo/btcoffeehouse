@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>BT Admin</title>
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/contents.css">
+    <link rel="stylesheet" href="../assets/css/fontawesome.css">
+  </head>
+  <body>
+    <nav class="main-nav bg-dark">
+      <div class="text-center">
+        <li class="nav-link"><a href="../index.html"><img class="logo" src="../assets/img/logo.png" alt="BT"></a></li>
+        <li class="nav-link"><a href="../index.html"><i class="fa fa-home"></i></a></li>
+        <li class="nav-link"><a href="../users/index.html"><i class="fa fa-users"></i></a></li>
+        <li class="nav-link"><a href="../menu/index.html"><i class="fa fa-coffee"></i></a></li>
+        <li class="nav-link"><a href=""><i class="fa fa-book-open"></i></a></li>
+      </div>
+    </nav>
+    <div class="main">
+      <h4 class="m-3">Статьи / всего статей: 10</h4>
+      <div class="m-2"><a href="add.html" class="btn-sm btn-success">Новая статья</a></div>
+      <table class="table table-bordered table-striped">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Заголовок</th>
+            <th>Читали</th>
+            <th>Дата публикации</th>
+            <th>Дата обновления</th>
+            <th>Действия</th>
+            <th>ID:</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Статья</td>
+            <td>5</td>
+            <td>18:22 15.11.2022</td>
+            <td>8:22 16.11.2022</td>
+            <td>
+              <a href="show.html" class="btn-sm btn-info m-1">
+                <i class="fa fa-sm fa-eye"></i>
+              </a>
+              <a href="edit.html" class="btn-sm btn-warning m-1">
+                <i class="far fa-edit"></i>
+              </a>
+              <a href="#" class="btn-sm btn-danger m-1" onclick="return confirm('Вы уверены?');">
+                <i class="fa">del</i>
+              </a>
+            </td>
+            <td>2</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <th>#</th>
+            <th>Заголовок</th>
+            <th>Читали</th>
+            <th>Дата публикации</th>
+            <th>Дата обновления</th>
+            <th>Действия</th>
+            <th>ID:</th>
+          </tr>
+        </tfoot>
+      </table>
+
+    </div>
+  </body>
+</html>

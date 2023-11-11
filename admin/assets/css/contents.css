@@ -1,0 +1,11 @@
+.block-netbuy {
+  background: #E5E6E6;
+  border-radius: 10px;
+}
+
+.links-of-netbuy a:hover {
+  border-bottom: 1px solid;
+}
+.cursor-pointer {
+  cursor: pointer;
+}

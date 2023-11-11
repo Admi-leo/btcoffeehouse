@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>BT Coffee House</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/contents.css">
+    <link rel="stylesheet" href="assets/css/media.css">
+    <script type="text/javascript" src="assets/js/jquery-3.6.1.js"></script>
+    <script>
+      $(document).ready(function(){
+        $("#open_map").click(function() {
+          $("#map").show(1000, 'slow');
+        });
+      });
+    </script>
+  </head>
+  <body style="background: url('assets/img/about.jpg') center / cover no-repeat fixed, linear-gradient(#37513D, #cdcdcd) fixed; background-blend-mode: multiply;">
+    <header class="bg-white">
+      <nav class="d-flex container">
+        <div>
+          <span class="logo"><a href="index.html"><img src="assets/img/logo.png" alt="btch"></a></span>
+        </div>
+        <div class="links d-flex justify-content-between w-100">
+          <div>
+            <span><a href="index.html">главная</a></span>
+            <span><a href="menu/menu.html">меню</a></span>
+            <span><a href="articles/articles.html">статьи</a></span>
+            <span><a href="about.html">о нас</a></span>
+          </div>
+          <div>
+            <span class="lang-turn"><a href="#" class="text-lowercase">en</a></span>
+            <span><a href="auth/login.html">войти</a></span>
+          </div>
+        </div>
+      </nav>
+    </header>
+      <div class="content con-about">
+        <div class="container">
+          <div class="row">
+            <div class="col-10">
+              <h1 class="title">О нас.<a href="#map" id="open_map" class="text-warning"> на карте</a></h1>
+              <p class="context">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+          <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1229.691213452499!2d52.96424150185771!3d40.001301214055744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sru!2s!4v1668261275007!5m2!1sru!2s" width="85%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+
+  </body>
+</html>

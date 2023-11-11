@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "Bahnschrift";
+  src: url('../fonts/bahnschrift.ttf');
+}
+body {
+  font-family: "Bahnschrift";
+}
+a:hover {
+  transition-duration: 0.4s;
+  text-decoration: none;
+}
+.main-nav {
+  color: #fff;
+  font-size: 18px;
+  width: 60px;
+  height: 100%;
+  margin-right: 65px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.main-nav .logo {
+  width: 100%;
+}
+.main-nav .nav-link {
+  padding: 8px 12px;
+}
+.main-nav li a {
+  color: #fff;
+}
+.main-nav li a:hover {
+  color: #209777;
+  text-decoration: none;
+}
+
+.main {
+  margin-left: 60px;
+  font-size: 14px;
+}
+
+.error {
+  color: red;
+}

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>BT Coffee House</title>
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/contents.css">
+    <link rel="stylesheet" href="../assets/css/media.css">
+    <link rel="stylesheet" href="../assets/css/fontawesome.min.css">
+    <script type="text/javascript" src="../assets/js/jquery-3.6.1.js"></script>
+    <script type="text/javascript" src="../assets/js/main.js"></script>
+  </head>
+  <body>
+
+    <header class="bg-white">
+      <nav class="d-flex container">
+        <div>
+          <span class="logo"><a href="../index.html"><img src="../assets/img/logo.png" alt="btch"></a></span>
+        </div>
+        <div class="links d-flex justify-content-between w-100">
+          <div>
+            <span><a href="../index.html">главная</a></span>
+            <span><a href="menu.html">меню</a></span>
+            <span><a href="../articles/articles.html">статьи</a></span>
+            <span><a href="../about.html">о нас</a></span>
+          </div>
+          <div>
+            <span class="lang-turn"><a href="#" class="text-lowercase">en</a></span>
+            <span><a href="../auth/login.html">войти</a></span>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="under-header">
+      <div class="container">
+        <div class="d-flex justify-content-between">
+          <div class="titles">
+            <li><a href="menu.html">продукты</a></li>
+            <li><a href="recomendations.html">рекомендации</a></li>
+            <li><a href="favorites.html" class="text-white">предпочтения</a></li>
+          </div>
+          <input formaction="#" type="search" name="find" placeholder="Поиск по меню" class="form-control">
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="content con-products">
+        <div class="row">
+          <div class="col-2">
+            <div class="sort-side">
+              <span class="category">Напитки</span>
+              <span class="subcategory"><a href="coffee.html">кофе</a></span>
+              <span class="subcategory"><a href="coffee.html">чай</a></span>
+              <span class="subcategory"><a href="coffee.html">напитки</a></span>
+              <span class="subcategory"><a href="coffee.html">сок</a></span>
+              <span class="category mt-3">Еда</span>
+              <span class="subcategory"><a href="coffee.html">завтрак</a></span>
+              <span class="subcategory"><a href="coffee.html">ланч</a></span>
+              <span class="subcategory"><a href="coffee.html">горячие блюда</a></span>
+              <span class="subcategory"><a href="coffee.html">холодные блюда</a></span>
+              <span class="subcategory"><a href="coffee.html">салаты</a></span>
+              <span class="subcategory"><a href="coffee.html">сладости</a></span>
+            </div>
+          </div>
+          <div class="col-10">
+            <h4 class="mb-4 title-page">Меню</h4>
+            <h5 class="title-down">Мои предпочтения / Здесь вы можете сделать заказ</h5>
+
+            <div class="w-75 products-favorites mt-4">
+              <div class="block-netbuy">
+                <form action="#" method="post" id="orderForm">
+                  <div class="d-flex justify-content-between mb-3" id="after-list">
+                    <span class="bold">Ваш заказ</span>
+                    <span><input type="submit" value="Запомнить" class="btn btn-sm btn-primary"></span>
+                  </div>
+                  <ul class="p-0 order-list empty">
+                    <li class="ml-2">Ваш список заказа пуст</li>
+                    <li class="ml-2">Сделайте заказ...</li>
+                  </ul>
+                  <li class="ml-2 mb-2 total-sum text-right">Сумма: <span class="sum"></span> TMT</li>
+                  <li class="mb-1 text-right">
+                    <a class="btn btn-sm btn-outline-dark mt-1" id="clean-list">очистить</a> 
+                    <input type="button" value="заказать" class="btn btn-sm btn-danger mt-1" id="btnToOrder">
+                  </li>
+                </form>
+              </div>
+            </div>
+              
+            <div class="row mt-0">
+
+              <div class="col-md-4 products-favorites mt-4">
+                <div class="block-gray">
+                  <h6>12:12 14.11.2022</h6>
+                  <ul class="p-0">
+                    <li class="ml-2 title">
+                      Кофе <a href="#" class="text-primary name-product" id="product_0">каппучино <i class="fa fa-xs fa-external-link-alt"></i></a>
+                      <input type="number" name="product-id" value="0" hidden>
+                    </li>
+                    <li class="ml-2 price">20 ТМТ</li>
+                    <li class="mt-2 d-flex justify-content-between actions">
+                      <input type="number" value="1" min="1" class="quantity-product">
+                      <div class="btns-order-of">
+                        <a class="btn btn-sm btn-primary addToList">в список</a>
+                        <a href="#" class="btn btn-sm text-danger btn-rm-of-order">удалить</a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-4 products-favorites mt-4">
+                <div class="block-gray">
+                  <h6>12:12 14.11.2022</h6>
+                  <ul class="p-0">
+                    <li class="ml-2 title">
+                      Завтрак <a href="#" class="text-primary name-product" id="product_1">яйца с глазунью <i class="fa fa-xs fa-external-link-alt"></i></a>
+                      <input type="number" name="product-id" value="1" hidden>
+                    </li>
+                    <li class="ml-2 price">30 ТМТ</li>
+                    <li class="mt-2 d-flex justify-content-between actions">
+                      <input type="number" value="1" min="1" class="quantity-product">
+                      <div class="btns-order-of">
+                        <a class="btn btn-sm btn-primary addToList">в список</a>
+                        <a href="#" class="btn btn-sm text-danger btn-rm-of-order">удалить</a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-4 products-favorites mt-4">
+                <div class="block-gray">
+                  <h6>12:12 14.11.2022</h6>
+                  <ul class="p-0">
+                    <li class="ml-2 title">
+                      Чай <a href="#" class="text-primary name-product" id="product_2">черный <i class="fa fa-xs fa-external-link-alt"></i></a>
+                      <input type="number" name="product-id" value="2" hidden>
+                    </li>
+                    <li class="ml-2 price">15 ТМТ</li>
+                    <li class="mt-2 d-flex justify-content-between actions">
+                      <input type="number" value="1" min="1" class="quantity-product">
+                      <div class="btns-order-of">
+                        <a class="btn btn-sm btn-primary addToList">в список</a>
+                        <a href="#" class="btn btn-sm text-danger btn-rm-of-order">удалить</a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-4 products-favorites mt-4">
+                <div class="block-gray">
+                  <h6>12:12 14.11.2022</h6>
+                  <ul class="p-0">
+                    <li class="ml-2 title">
+                      Торт <a href="#" class="text-primary name-product" id="product_3">наполеон <i class="fa fa-xs fa-external-link-alt"></i></a>
+                      <input type="number" name="product-id" value="3" hidden>
+                    </li>
+                    <li class="ml-2 price">15 ТМТ</li>
+                    <li class="mt-2 d-flex justify-content-between actions">
+                      <input type="number" value="1" min="1" class="quantity-product">
+                      <div class="btns-order-of">
+                        <a class="btn btn-sm btn-primary addToList">в список</a>
+                        <a href="#" class="btn btn-sm text-danger btn-rm-of-order">удалить</a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="bg-dark">
+      <div class="info container d-flex">
+        <div class="links">
+          <h5 class="text-white">Навигация</h5>
+          <span><a href="../index.html">главная</a></span>
+          <span><a href="menu.html">меню</a></span>
+          <span><a href="../articles/articles.html">статьи</a></span>
+          <span><a href="../about.html">о нас</a></span>
+        </div>
+        <div class="links">
+          <h5 class="text-white">Контакты</h5>
+          <span><a href="tel:99365656565">+993 64 556565</a></span>
+          <span><a href="tel:99365656565">+993 64 556565</a></span>
+          <span><a href="mailto:admin@btcoffeehouse.com" class="text-lowercase">admin@btcoffeehouse.com</a></span>
+        </div>
+      </div>
+      <div class="text-center py-3 text-light bg-dark">
+        <p class="m-0 small">Copyright&nbsp;©&nbsp; Break Time Coffee House 2022</p>
+      </div>
+    </footer>
+
+  </body>
+</html>

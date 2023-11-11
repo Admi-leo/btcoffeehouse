@@ -1,0 +1,102 @@
+@font-face {
+  font-family: "Gost Common";
+  src: url('../fonts/GostCommon.ttf');
+}
+body {
+  background: rgba(30, 57, 50, 0.05);
+}
+
+a {
+  color: rgba(0, 0, 0, 0.7);
+}
+a:hover {
+  color: rgba(0, 0, 0, 1);
+  transition-duration: 0.3s;
+  text-decoration: none;
+}
+
+/* Header */
+header {
+  font-family: "Gost Common";
+  font-weight: 800;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.4);
+}
+nav {
+  padding: 20px 0;
+}
+.logo {
+  margin-right: 32px;
+}
+.logo a img {
+  height: 70px;
+}
+header nav .links {
+  margin: auto;
+  font-size: 17px;
+}
+nav span a {
+  text-transform: uppercase;
+  color: rgb(33, 33, 33);
+}
+nav span a {
+  margin-right: 22px;
+}
+nav span a:hover {
+  text-decoration: none;
+  color: rgb(0, 99, 65);
+}
+.under-header {
+  background: rgb(30, 57, 50);
+  padding: 12px 0;
+  color: #fff;
+  font-family: "Gost Common";
+  font-weight: 800;
+  text-transform: uppercase;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.4);
+}
+.under-header .titles {
+  display: flex;
+  margin: auto 0;
+  font-size: 16px;
+}
+.under-header .titles li {
+  list-style-type: none;
+  text-transform: capitalize;
+  margin-right: 24px;
+}
+.under-header .titles a {
+  color: #ffc107;
+}
+.under-header .titles a:hover {
+  color: rgba(255, 193, 7, 0.8);
+  text-decoration: none;
+}
+.under-header input[type="search"] {
+  width: 200px;
+  padding: 0 12px;
+}
+
+
+
+/* Footer */
+.info {
+  padding: 42px 0 0 12px;
+}
+.info div {
+  margin-right: 128px;
+}
+footer .info {
+  font-family: "Gost Common";
+  text-transform: capitalize;
+}
+footer .info .links {
+  display: grid;
+}
+footer .info span a {
+  font-size: 18px;
+  color: rgba(205, 205, 205, 0.8);
+}
+footer .info span a:hover {
+  text-decoration: none;
+  color: rgba(205, 205, 205, 1);
+}

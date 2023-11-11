@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>BT Admin</title>
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/contents.css">
+    <link rel="stylesheet" href="../assets/css/fontawesome.css">
+    <script type="text/javascript" src="../assets/js/jquery-3.6.1.js"></script>
+    <script type="text/javascript" src="../assets/js/main.js"></script>
+  </head>
+  <body>
+    <nav class="main-nav bg-dark">
+      <div class="text-center">
+        <li class="nav-link"><a href="../index.html"><img class="logo" src="../assets/img/logo.png" alt="BT"></a></li>
+        <li class="nav-link"><a href="../index.html"><i class="fa fa-home"></i></a></li>
+        <li class="nav-link"><a href="../users/index.html"><i class="fa fa-users"></i></a></li>
+        <li class="nav-link"><a href="index.html"><i class="fa fa-coffee"></i></a></li>
+        <li class="nav-link"><a href="../articles/index.html"><i class="fa fa-book-open"></i></a></li>
+      </div>
+    </nav>
+    <div class="main">
+      <h4 class="m-3">Статьи / обновление данных статьи</h4>
+      <div class="row user">
+        <div class="col-6 mx-4">
+          <span><a href="index.html"><i class="far fa-lg fa-arrow-alt-circle-left text-danger"></i></a></span>
+          <div class="block-netbuy px-3 pb-1 p-3 my-3">
+            <form action="" method="post" id="infoArticleForm">
+              <div class="form-group">
+                <label for="title">Заголовок</label>
+                <input type="text" name="title" id="title" placeholder="Заголовок" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="describe">Описание</label>
+                <textarea name="describe" id="describe" placeholder="Описание" rows="6" class="form-control"></textarea>
+              </div>
+              <div class="form-group">
+                <a href="#" class="ml-2 btn btn-sm btn-success">Опубликован</a>
+                <input type="submit" value="Сохранить" class="float-right btn btn-sm btn-danger">
+              </div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>

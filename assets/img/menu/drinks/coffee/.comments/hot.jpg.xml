@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comment version="3.0">
+  <caption>Café</caption>
+  <note/>
+  <place/>
+  <categories>
+    <category value="focus"/>
+    <category value="agréable"/>
+    <category value="plaisir"/>
+    <category value="café"/>
+    <category value="mousse"/>
+    <category value="chocolat"/>
+    <category value="macro"/>
+    <category value="détail"/>
+    <category value="zoom"/>
+    <category value="close-up"/>
+    <category value="closeup"/>
+    <category value="partage"/>
+    <category value="alimentation"/>
+    <category value="nourriture"/>
+    <category value="nourrir"/>
+    <category value="rustique"/>
+    <category value="vrai"/>
+    <category value="véritable"/>
+    <category value="authentique"/>
+    <category value="moka"/>
+    <category value="arabica"/>
+    <category value="tasse"/>
+    <category value="chaude"/>
+    <category value="espresso"/>
+    <category value="caféine"/>
+    <category value="grain"/>
+    <category value="fleur"/>
+    <category value="anis"/>
+    <category value="cannelle"/>
+    <category value="boisson"/>
+    <category value="senteur"/>
+    <category value="chaud"/>
+    <category value="décoration"/>
+    <category value="noisette"/>
+    <category value="fumet"/>
+    <category value="parfum"/>
+    <category value="grains"/>
+    <category value="petit noir"/>
+    <category value="noir"/>
+    <category value="paris"/>
+    <category value="bistro"/>
+    <category value="diner"/>
+    <category value="dejeuner"/>
+    <category value="grains de cafés"/>
+  </categories>
+</comment>

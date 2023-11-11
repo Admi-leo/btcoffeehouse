@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comment version="3.0">
+  <caption>tasse de café</caption>
+  <note/>
+  <place/>
+  <categories>
+    <category value="café"/>
+    <category value="tasse"/>
+    <category value="espresso"/>
+    <category value="grain"/>
+    <category value="caféine"/>
+    <category value="boisson"/>
+    <category value="chaude"/>
+    <category value="noir"/>
+    <category value="déjeuner"/>
+    <category value="travail"/>
+    <category value="bureau"/>
+    <category value="plaisir"/>
+    <category value="partage"/>
+    <category value="alimentation"/>
+    <category value="close-up"/>
+    <category value="closeup"/>
+    <category value="close up"/>
+    <category value="détail"/>
+    <category value="ambiance"/>
+    <category value="bien-être"/>
+    <category value="excitation"/>
+    <category value="énergie"/>
+    <category value="réveil"/>
+    <category value="matin"/>
+    <category value="moka"/>
+    <category value="arabica"/>
+    <category value="robusta"/>
+    <category value="relaxation"/>
+    <category value="relaxant"/>
+    <category value="stimulation"/>
+    <category value="stimulant"/>
+    <category value="porcelaine"/>
+    <category value="cuillère"/>
+    <category value="moudre"/>
+    <category value="grains"/>
+    <category value="grains de café"/>
+    <category value="cafe"/>
+    <category value="coffee"/>
+    <category value="tasse de café"/>
+  </categories>
+</comment>

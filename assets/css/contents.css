@@ -1,0 +1,227 @@
+/* Main page */
+.content {
+  font-family: "Gost Common";
+  margin: 16px 0;
+}
+.con-events .row {
+  font-family: "Gost Common";
+  margin-top: 32px;
+}
+.con-events h4 {
+  font-weight: 800;
+  margin-bottom: 0;
+}
+.con-events .hashtag {
+  font-size: 17px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.7);
+}
+.con-events p {
+  padding: 12px;
+  border-left: 1px solid rgba(16, 6, 4);
+  text-align: justify;
+}
+.con-events img {
+  width: 80%;
+  border: 1px solid rgb(30, 57, 50);
+  box-shadow: -3px 4px 6px rgba(0, 0, 0, 0.7);
+}
+.con-events .event .title {
+  font-size: 24px;
+  font-weight: 800;
+}
+.con-events .event .context {
+  font-size: 18px;
+}
+.con-events .sidebar-event h5 {
+  font-weight: 800;
+  font-size: 16px;
+}
+.con-events .sidebar-event {
+  list-style-type: none;
+  
+}
+
+/* Menu page */
+.con-products .row {
+  margin-top: 16px;
+}
+.con-products .sort-side {
+  display: grid;
+  font-size: 17px;
+}
+.con-products .sort-side .category {
+  font-weight: 800;
+}
+.con-products .sort-side span a {
+  text-transform: capitalize;
+}
+.con-products .sort-side span a:hover {
+  text-decoration: none;
+}
+.bold {
+  font-weight: 800;
+}
+.con-products .img-product {
+  width: 150px;
+  border-radius: 100%;
+}
+.con-products .product {
+  margin: 16px 0;
+}
+.con-products .product span {
+  font-size: 24px;
+  font-weight: 800;
+}
+.con-products h4 {
+  font-family: "Gost Common";
+  font-weight: 800;
+  margin-bottom: 0;
+}
+.con-products h4 .hashtag {
+  font-size: 17px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.7);
+}
+.con-products p {
+  padding: 12px;
+  border-left: 1px solid rgba(16, 6, 4);
+  text-align: justify;
+}
+
+/* Menu favorites */
+.products-favorites li {
+  list-style-type: none;
+}
+.products-favorites .block-gray {
+  display: block;
+}
+.products-favorites .favorite-remove {
+  font-size: 16px;
+  color: rgba(255, 0, 0, 0.8);
+}
+.products-favorites .favorite-remove:hover {
+  font-size: 16px;
+  color: rgba(255, 0, 0, 1);
+}
+.total-sum {
+  display: none;
+}
+.quantity-product {
+  width: 50px;
+  border: 1px solid #fff;
+  border-radius: 6px;
+}
+
+/* acticles */
+.articles {
+  font-family: "Gost Common";
+  margin: 32px 0;
+}
+.articles .content-articles .article {
+  background: rgba(0, 0, 0, 0.05);
+  padding: 12px 32px;
+  border-radius: 6px;
+}
+.articles .content-articles .article h5 {
+  margin-top: 12px;
+  font-size: 22px;
+  font-weight: 800;
+}
+.articles .content-articles .article p {
+  font-size: 17px;
+}
+.articles .content-articles .article p::first-letter {
+  font-size: 24px;
+  font-weight: 800;
+}
+.articles .content-articles .article img {
+  width: 100%;
+  border: 1px solid rgba(16, 6, 4);
+  margin-bottom: 12px;
+}
+.articles .content-articles .article .date-article {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.articles .sidebar-articles {
+  list-style-type: none;
+  font-size: 17px;
+}
+.articles .sidebar-articles h5::first-letter, li::first-letter {
+  text-transform: capitalize;
+}
+.articles .content-articles h5 {
+  font-weight: 800;
+}
+.articles .content-articles p {
+  text-align: justify;
+}
+
+.comments {
+  margin: 64px 0;
+  font-family: "Gost Common";
+}
+
+.comments .date-comment {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.block-gray {
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.06);
+  border-radius: 6px;
+}
+.block-gray ul {
+  margin: 0px;
+}
+.block-netbuy {
+  padding: 12px;
+  background: rgba(0, 204, 152, 0.3);
+  border-radius: 6px;
+}
+
+
+
+
+/* comments of a product */
+.comments-product {
+  font-family: "Gost Common";
+}
+
+/* page about us */
+.con-about {
+  color: #fff;
+  font-size: 20px;
+}
+
+/* page map */
+.con-map {
+  font-family: "Gost Common";
+}
+#map {
+  display: none;
+}
+
+/* auth */
+.auth {
+  font-size: 18px;
+  font-family: "Gost Common";
+}
+.auth form label {
+  margin: 0;
+  font-size: 14px;
+}
+.auth .col-auth {
+  margin: 0 auto;
+  max-width: 40%;
+}
+
+
+.error {
+  color: red;
+  font-size: 16px !important;
+}
+
+

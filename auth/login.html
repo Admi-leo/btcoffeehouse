@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>BT Coffee House</title>
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/contents.css">
+    <link rel="stylesheet" href="../assets/css/media.css">
+    <link rel="stylesheet" href="../assets/css/fontawesome.min.css">
+    <script type="text/javascript" src="../assets/js/jquery-3.6.1.js"></script>
+    <script type="text/javascript" src="../assets/js/main.js"></script>
+  </head>
+  <body>
+
+    <header class="bg-white">
+      <nav class="d-flex container">
+        <div>
+          <span class="logo"><a href="../index.html"><img src="../assets/img/logo.png" alt="btch"></a></span>
+        </div>
+        <div class="links d-flex justify-content-between w-100">
+          <div>
+            <span><a href="../index.html">главная</a></span>
+            <span><a href="../menu/menu.html">меню</a></span>
+            <span><a href="../articles/articles.html">статьи</a></span>
+            <span><a href="../about.html">о нас</a></span>
+          </div>
+          <div>
+            <span class="lang-turn"><a href="#" class="text-lowercase">en</a></span>
+            <span><a href="login.html">войти</a></span>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="auth">
+      <h3 class="my-4 text-center title">Авторизация</h3>
+      <form action="#" method="post" id="loginForm">
+        <div class="col-auth">
+          <a href="signin.html" class="float-right text-danger">Регистрация <i class="fa fa-xs fa-external-link-alt"></i></a>
+          <div class="form-group">
+            <label for="email">Эл.почта</label>
+            <input type="email" name="email" id="email" required class="form-control" placeholder="Ваша эл.почта">
+          </div>
+          <div class="form-group">
+            <label for="password">Пароль</label>
+            <input type="password" name="password" id="password" class="form-control" placeholder="Пароль">
+          </div>
+          <div class="form-group">
+            <input type="checkbox" id="remember">
+            <label for="remember">не запоминать меня</label>
+            <input type="submit" value="Войти" class="btn btn-warning form-control">
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
